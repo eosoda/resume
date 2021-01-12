@@ -11,8 +11,8 @@ import "./App.css";
 
 function App() {
   return (
-    <Container>
-      <Grid container>
+    <Container className={'top_66'}>
+      <Grid container spacing={7}>
         <Grid item xs={12} lg={3} md={4}>
           <Profile />
         </Grid>
