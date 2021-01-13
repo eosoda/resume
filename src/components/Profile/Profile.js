@@ -57,10 +57,9 @@ const Profile = () => {
             />
           ))}
         </CustomTimeline>
-        <div className='button_container'>
-        <CustomButton text={"Download Cv"} icon={<GetAppIcon />} />
+        <div className="button_container">
+          <CustomButton text={"Download Cv"} icon={<GetAppIcon />} />
         </div>
-        
       </div>
     </div>
   );

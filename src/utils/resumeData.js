@@ -5,6 +5,7 @@ import GitHubIcon from '@material-ui/icons/GitHub';
 import LinkedInIcon from '@material-ui/icons/Facebook';
 
 
+// eslint-disable-next-line import/no-anonymous-default-export
 export default {
         name: 'sam is codingo',
         title: 'full stack developer',
