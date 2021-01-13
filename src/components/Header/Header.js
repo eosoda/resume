@@ -8,12 +8,11 @@ import {
   NavDropdown,
 } from "react-bootstrap";
 import "./Header.css";
-import "bootstrap/dist/css/bootstrap.min.css";
 import { Link, NavLink, withRouter } from "react-router-dom";
 import { HomeRounded, Telegram } from "@material-ui/icons";
 import resumeData from "../../utils/resumeData";
 import CustomButton from "../Button/Button";
-// import Telegram from "@material-ui/icons/Telegram";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 const Header = (props) => {
   const pathName = props?.location?.pathname;
