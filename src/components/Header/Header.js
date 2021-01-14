@@ -1,14 +1,7 @@
 import React from "react";
-import {
-  Button,
-  Form,
-  FormControl,
-  Nav,
-  Navbar,
-  NavDropdown,
-} from "react-bootstrap";
+import { Nav, Navbar } from "react-bootstrap";
 import "./Header.css";
-import { Link, NavLink, withRouter } from "react-router-dom";
+import { NavLink, withRouter } from "react-router-dom";
 import { HomeRounded, Telegram } from "@material-ui/icons";
 import resumeData from "../../utils/resumeData";
 import CustomButton from "../Button/Button";
@@ -20,7 +13,7 @@ const Header = (props) => {
   return (
     <Navbar expand="lg" sticky="top" className="header">
       {/* Home Link */}
-      <Nav.Link as={NavLink} to="/" className={'header_navlink'}>
+      <Nav.Link as={NavLink} to="/" className={"header_navlink"}>
         <Navbar.Brand className="header_home">
           <HomeRounded />
         </Navbar.Brand>
@@ -29,7 +22,7 @@ const Header = (props) => {
       <Navbar.Toggle />
 
       <Navbar.Collapse>
-        <Nav className='header_left'>
+        <Nav className="header_left">
           {/* Resume Link */}
           <Nav.Link
             as={NavLink}
