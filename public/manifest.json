@@ -1,6 +1,6 @@
 {
-  "short_name": "portifolio",
-  "name": "Giancarlo Junior Portifolio",
+  "short_name": "portfolio",
+  "name": "Giancarlo Junior Portfolio",
   "icons": [ ],
   "start_url": ".",
   "display": "standalone",
