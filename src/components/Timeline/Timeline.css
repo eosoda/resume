@@ -9,11 +9,11 @@
   padding-top: 7px;
 }
 
-.timeline .timefirsItem {
+.timeline .timefirstItem {
   min-height: 80px !important;
 }
 .timeline .MuiTimelineItem-root {
-  min-height: 0px;
+  min-height: 0px !important;
 }
 .timeline .MuiTimelineItem-missingOppositeContent:before {
   display: none;
